@@ -277,3 +277,7 @@ section[id] { scroll-margin-top: 80px; }
   .reveal { opacity: 1; transform: none; }
   .blob { animation: none; }
 }
+
+/* Footer date: visible only on hover/focus */
+.footer__date { opacity: 0; transition: opacity .25s; cursor: default; min-width: 10ch; padding: 8px 0; }
+.footer__date:hover, .footer__date:focus { opacity: 1; }
