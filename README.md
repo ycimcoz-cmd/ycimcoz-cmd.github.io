@@ -32,7 +32,7 @@ Tüm içerik `js/data.js` içindeki `window.PORTFOLIO` nesnesindedir:
 - `projects` (`category` değerleri filtre butonlarını otomatik üretir; `live` veya `code` boş bırakılırsa o link gösterilmez)
 - `socials` (`icon`: `github`, `linkedin`, `x`)
 
-> **Önemli:** `index.html` içindeki `<head>` alanları statiktir (JS'e bağlı değildir). İsmini veya bilgilerini değiştirdiğinde `title`, `meta description`, `canonical`, Open Graph / Twitter etiketleri ve JSON-LD bloğunu da elle güncelle. `ycimcoz-cmd.github.io` yer tutucularını kendi adresinle değiştir.
+> **Önemli:** `index.html` içindeki `<head>` alanları statiktir (JS'e bağlı değildir). İsmini veya bilgilerini değiştirdiğinde `title`, `meta description`, `canonical`, Open Graph / Twitter etiketleri ve JSON-LD bloğunu da elle güncelle. `ycimcoz-cmd` kullanıcı adını kendi GitHub kullanıcı adınla değiştir.
 
 ## CV ekleme
 
@@ -44,7 +44,7 @@ Kendi CV'ni `assets/cv.pdf` olarak koy. Farklı bir yol kullanırsan `cvUrl` de�
 
 ## GitHub Pages ile yayınlama
 
-1. `ycimcoz-cmd.github.io` adlı bir repo oluştur (`username` yerine GitHub kullanıcı adın).
+1. `ycimcoz-cmd.github.io` adlı bir repo oluştur (`ycimcoz-cmd` yerine GitHub kullanıcı adın).
 2. Dosyaları `main` branch'ine push et.
 3. Settings › Pages › Source: `main` / `/ (root)`.
 4. Birkaç dakika sonra site `https://ycimcoz-cmd.github.io` adresinde yayında olur.
