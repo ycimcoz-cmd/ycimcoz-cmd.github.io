@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Morgan — Software Developer</title>
+  <meta name="description" content="Alex Morgan is a software developer building fast, accessible and delightful web experiences. Explore projects, skills, experience and get in touch.">
+  <link rel="canonical" href="https://ycimcoz-cmd.github.io/">
+  <meta name="theme-color" content="#FBF5EC">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alex Morgan — Software Developer">
+  <meta property="og:description" content="Alex Morgan is a software developer building fast, accessible and delightful web experiences.">
+  <meta property="og:url" content="https://ycimcoz-cmd.github.io/">
+  <meta property="og:image" content="https://ycimcoz-cmd.github.io/assets/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alex Morgan — Software Developer">
+  <meta name="twitter:description" content="Alex Morgan is a software developer building fast, accessible and delightful web experiences.">
+  <meta name="twitter:image" content="https://ycimcoz-cmd.github.io/assets/og-image.svg">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Alex Morgan",
+    "jobTitle": "Software Developer",
+    "url": "https://ycimcoz-cmd.github.io/",
+    "email": "mailto:hello@example.com",
+    "sameAs": [
+      "https://github.com/example",
+      "https://linkedin.com/in/example",
+      "https://x.com/example"
+    ],
+    "address": { "@type": "PostalAddress", "addressLocality": "Istanbul, Turkey" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="#home" id="nav-logo" aria-label="Home">AM</a>
+      <button class="nav__toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+        <span class="nav__bars" aria-hidden="true"></span>
+      </button>
+      <nav class="nav__menu" id="nav-menu" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="blob blob--1" aria-hidden="true"></div>
+      <div class="blob blob--2" aria-hidden="true"></div>
+      <div class="blob blob--3" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <span class="badge">👋 Hi, I'm</span>
+        <h1 id="hero-name">Alex Morgan</h1>
+        <p class="hero__role">I'm a <span class="typewriter" id="typewriter" aria-hidden="true"></span><span class="caret" aria-hidden="true">|</span><span class="sr-only" id="roles-sr">Software Developer</span></p>
+        <p class="hero__tagline" id="hero-tagline">Software Developer</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--outline" id="cv-btn" href="assets/cv.pdf" download>Download CV</a>
+        </div>
+        <ul class="socials" id="hero-socials" aria-label="Social links"></ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="reveal">About me</h2>
+        <div class="about" id="about-content"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <h2 class="reveal">Skills</h2>
+        <div class="skills" id="skills-content"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="reveal">Experience</h2>
+        <div class="timeline" id="experience-content"></div>
+        <h3 class="subhead reveal">Education</h3>
+        <div class="timeline" id="education-content"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <h2 class="reveal">Projects</h2>
+        <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+        <p class="sr-only" id="filter-status" aria-live="polite"></p>
+        <div class="projects" id="projects-content"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact__inner">
+        <h2 class="reveal">Let's build something together</h2>
+        <p class="reveal" id="contact-text">Have a project in mind or just want to say hi? My inbox is always open.</p>
+        <a class="btn btn--primary btn--lg reveal" id="mail-btn" href="mailto:hello@example.com">hello@example.com</a>
+        <ul class="socials reveal" id="contact-socials" aria-label="Social links"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p id="footer-text">© 2026 Alex Morgan. Built with HTML, CSS &amp; JS.</p>
+      <p><time id="footer-date"></time></p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <noscript><p class="noscript">Please enable JavaScript to view the full portfolio.</p></noscript>
+
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
