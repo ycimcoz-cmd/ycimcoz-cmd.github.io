@@ -10,6 +10,10 @@
   --accent-strong: #B84E28;
   --accent-soft: #F6D9C8;
 
+  --btn: #6B3FA0;
+  --btn-hover: #56308A;
+  --btn-soft: #EADFF6;
+
   --mustard: #E3A72F;
   --mustard-soft: #F8E7BE;
   --mint: #7FBFA4;
@@ -78,8 +82,8 @@ section[id] { scroll-margin-top: 80px; }
   border: 2px solid transparent; transition: background .25s, color .25s, transform .25s, box-shadow .25s;
 }
 .btn svg { width: 18px; height: 18px; }
-.btn--primary { background: var(--accent-strong); color: #fff; box-shadow: var(--shadow); }
-.btn--primary:hover { background: #9E411F; transform: translateY(-2px); }
+.btn--primary { background: var(--btn); color: #fff; box-shadow: var(--shadow); }
+.btn--primary:hover { background: var(--btn-hover); transform: translateY(-2px); }
 .btn--outline { border-color: var(--text); color: var(--text); background: transparent; }
 .btn--outline:hover { background: var(--text); color: var(--bg); transform: translateY(-2px); }
 .btn--lg { min-height: 56px; padding: 0 34px; font-size: 1.1rem; max-width: 100%; overflow-wrap: anywhere; }
@@ -167,7 +171,7 @@ section[id] { scroll-margin-top: 80px; }
   border-radius: 50%; background: var(--surface); border: 1px solid var(--border);
   transition: background .25s, color .25s, transform .25s;
 }
-.socials a:hover { background: var(--accent-strong); color: #fff; transform: translateY(-3px); }
+.socials a:hover { background: var(--btn); color: #fff; transform: translateY(-3px); }
 .socials svg { width: 20px; height: 20px; }
 
 /* About */
@@ -228,8 +232,8 @@ section[id] { scroll-margin-top: 80px; }
   border: 1px solid var(--border); background: var(--surface); color: var(--text);
   font: 600 .95rem var(--font-body); transition: background .2s, color .2s;
 }
-.filter-btn:hover { background: var(--accent-soft); }
-.filter-btn[aria-pressed="true"] { background: var(--accent-strong); color: #fff; border-color: var(--accent-strong); }
+.filter-btn:hover { background: var(--btn-soft); }
+.filter-btn[aria-pressed="true"] { background: var(--btn); color: #fff; border-color: var(--btn); }
 
 .projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 28px; }
 .project { display: flex; flex-direction: column; overflow: hidden; }
